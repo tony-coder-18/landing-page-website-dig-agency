@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: #FFFFFFB2;
+}
+
+.fa-circle {
+    height: 5px;
+}
+/* Using custom CSS for max-width for text to have more control*/
+.title {
+    max-width: 100%;
+}
+
+.hero_title {
+    max-width: 24ch;
+}
+
+.hero_subtitle  {
+    max-width: 50ch;
+}
+
+.feat_title {
+    max-width: 24ch;
+}
+
+.feat_p {
+    max-width: 50ch;
+}
+
+.testimonial_p {
+    max-width: 63ch;
+}
+
+.grid-testi {
+    grid-template-columns: auto 1fr;
+}
+
+.blur-card {
+    background-color: transparent;
+    box-shadow: 0 8px 32px 0 #111418;
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.values_title {
+    max-width: 20ch;
+}
+
+.news-card {
+    background-image: url("assets/img/newsletter-bg-img.png");
+}
