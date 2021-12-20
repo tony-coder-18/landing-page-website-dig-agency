@@ -993,6 +993,22 @@ p {
   background-image: url("assets/img/newsletter-bg-img.png");
 }
 
+.blur-bg {
+  position: absolute;
+  z-index: -1;
+  width: 50rem;
+  height: 50rem;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #B83E4B 10%, #1A1F25 83%);
+  filter: blur(50px);
+}
+
+.blur-bg--right {
+  left: auto;
+  top: auto;
+  right: -17%;
+  bottom: 5%;
+}
+
 @media (min-width: 768px) {
   .md\:inline-block {
     display: inline-block;
